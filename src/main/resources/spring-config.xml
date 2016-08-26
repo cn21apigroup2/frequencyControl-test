@@ -33,7 +33,7 @@
 			value="classpath:com/cn21/FrequencyControl_test/dao/mapper/**/*.xml"></property>
 	</bean>
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="com.cn21.FrequencyControl.dao" />
+		<property name="basePackage" value="com.cn21.FrequencyControl_test.dao" />
 		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
 	</bean>
 
